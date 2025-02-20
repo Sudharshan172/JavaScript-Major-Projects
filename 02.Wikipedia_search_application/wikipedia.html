@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Search Application</title>
+    <link rel="stylesheet" href="wikipedia.css">
+</head>
+<body>
+    <div class="bg-container">
+        <div>
+            <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png"/>
+            <br>
+            <input class="input-box" id="searchInput" placeholder="Search on Wikipedia" type="search" required/>
+        </div>
+        <hr>
+
+        <div class="spinner" id="spinner"></div>
+
+        <div class="search-results" id="searchResults"></div>
+    </div>
+    <script src="wikipedia.js"></script>
+</body>
+</html>
